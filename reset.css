@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    float: left;
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.float{
+position:relative;
+float: left;
+}
+.full_w{
+    width: 100%;
+}
+.center{
+    width: 1280px;
+    margin: auto;
+}
