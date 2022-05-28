@@ -288,6 +288,7 @@ text-align:center;
 }
 .box_w{
     max-width: 30%;
+    cursor: pointer;
     padding: 20px;
     display: flex;
     height: 260px;
@@ -295,6 +296,8 @@ text-align:center;
     flex-direction: column;
     align-self: center;
     justify-content: space-evenly;
+    border-radius: 15px;
+    transition: all 1s;
     box-shadow: 10px 15px 30px rgb(0 0 0 / 18%);
     transition: all .4s linear;
 }
@@ -340,6 +343,7 @@ text-align:center;
     background-position: center;
     background-size: cover;
     object-fit: cover;
+    cursor: pointer;
     
 }
 .img_c:not(:last-child){
